@@ -37,7 +37,7 @@ header {
 	background-color: black;
 }
 header .profileLogo .logoPlaceholder {
-	background-color: rgba(,207,207,1.00);
+	background-color: rgba(0,0,0,1.00);
 	width: 187px;
 	text-align: center;
 }
@@ -257,7 +257,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	display: inline-block;
 	text-align: left;
 	font-family: sans-serif;
-	text-align: justify;
+
 }
 .mainContent .section2 {
 	display: block;
