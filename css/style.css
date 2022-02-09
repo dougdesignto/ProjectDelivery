@@ -7,6 +7,7 @@ body {
 	max-width: 960px;
 	padding-left: 2.275%;
 	padding-right: 2.275%;
+	background-color: black;
 }
 .center {
 	background-color: black;
@@ -27,12 +28,13 @@ color: white;
 	align-items: stretch;
 }
 .h2 {
-	color: black;
+	color: white;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 header {
 	text-align: center;
 	display: block;
+	background-color: black;
 }
 header .profileLogo .logoPlaceholder {
 	background-color: rgba(208,207,207,1.00);
@@ -43,13 +45,13 @@ header .logoPlaceholder span {
 	width: 80px;
 	height: 22px;
 	font-family: 'Montserrat', sans-serif;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 53px;
 }
 header .profilePhoto {
-	background-color: rgba(237,237,237,1.00);
+	background-color: rgba(0,0,0,1.00);
 	width: 259px;
 	border-radius: 50%;
 	height: 259px;
@@ -57,14 +59,14 @@ header .profilePhoto {
 }
 header .profileHeader h1 {
 	font-family: 'Montserrat', sans-serif;
-	color: rgba(0,0,0,0.00);
+	color: rgba(255,255,255,1.00);
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 24px;
 }
 header .profileHeader h3 {
 	font-family: sans-serif;
-	color: black;
+	color: white;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
@@ -75,7 +77,7 @@ hr {
 }
 header .profileHeader p {
 	font-family: sans-serif;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
@@ -100,7 +102,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
 	font-family: 'Montserrat', sans-serif;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -119,27 +121,27 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 }
 .mainContent .section1 .section1Content span {
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-family: sans-serif;
 }
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-size: 18px;
 	font-weight: 700;
 }
 .section2 .sectionContentSubTitle {
 	font-family: sans-serif;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-size: 14px;
 	font-weight: 400;
 }
 .section2 .sectionContent {
 	font-family: sans-serif;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
@@ -185,18 +187,18 @@ footer .footerDisclaimer {
 	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 18px;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-weight: 700;
 }
 footer .footerDisclaimer span {
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-weight: 400;
 }
 footer .footerNote {
 	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 18px;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	font-weight: 700;
 }
 footer .footerNote span {
@@ -204,9 +206,9 @@ footer .footerNote span {
 	font-weight: 400;
 }
 
-/* Media query for Mobile devices*/
+
 @media only screen and (min-width : 285px) and (max-width : 480px) {
-/* Header */
+
 header {
 	width: 100%;
 	float: none;
@@ -237,7 +239,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	display: inline-block;
 	margin-right: 23px;
 }
-/* Main content sections */
+
 .mainContent .section1 {
 	text-align: center;
 	margin-bottom: 10%;
@@ -281,9 +283,9 @@ footer {
 }
 }
 
-/* Media Query for Tablets */
+
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
-/* Header */
+
 header {
 	width: 100%;
 	float: none;
@@ -291,6 +293,7 @@ header {
 header .profileLogo .logoPlaceholder {
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
+	background-color: black;
 }
 header .profilePhoto {
 	float: left;
@@ -348,7 +351,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	height: 48px;
 	margin-top: 5%;
 }
-/* Footer */
+
 footer .footerDisclaimer {
 	float: left;
 	margin-left: 3%;
@@ -361,9 +364,9 @@ footer .footerNote {
 }
 }
 
-/* Desktops and laptops  */
+
 @media only screen and (min-width:1025px) {
-/* Header */
+
 header .profileLogo .logoPlaceholder {
 	float: left;
 	margin-bottom: 50px;
@@ -383,7 +386,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	display: inline-block;
 	margin-right: 23px;
 }
-/* Main content sections */
+
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
 	width: 22.5%;
 }
@@ -414,7 +417,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	width: 199px;
 	height: 48px;
 }
-/* Footer */
+
 footer .footerDisclaimer {
 	float: left;
 	margin-left: 3%;
